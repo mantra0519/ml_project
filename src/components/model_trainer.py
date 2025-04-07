@@ -29,6 +29,7 @@ class ModelTrainer:
 
 
     def initiate_model_trainer(self,train_array,test_array):
+
         try:
             logging.info("Split training and test input data")
             X_train,y_train,X_test,y_test=(
@@ -112,8 +113,6 @@ class ModelTrainer:
             return r2_square
             
 
-
-
-            
+   
         except Exception as e:
             raise CustomException(e,sys)
