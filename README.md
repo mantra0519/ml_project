@@ -25,7 +25,7 @@ from sklearn.metrics import r2_score
 ```
 ## Local setup
 ```
-git clone https://github.com/your-repo/student-performance-predictor.git
-cd student-performance-predictor
+git clone https://github.com/mantra0519/ml_project.git
+cd ml_project
 pip install -r requirements.txt
 python application.py  # Access at http://localhost:5000/predictdata
